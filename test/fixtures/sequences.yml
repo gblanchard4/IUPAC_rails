@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  input_sequence: MyString
+  length: 1
+  ambiguous_bases: 1
+  defined_bases: 1
+  seen: 1
+
+two:
+  input_sequence: MyString
+  length: 1
+  ambiguous_bases: 1
+  defined_bases: 1
+  seen: 1

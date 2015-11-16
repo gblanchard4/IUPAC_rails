@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Input sequence:</strong>
+  <%= @sequence.input_sequence %>
+</p>
+
+<p>
+  <strong>Length:</strong>
+  <%= @sequence.length %>
+</p>
+
+<p>
+  <strong>Ambiguous bases:</strong>
+  <%= @sequence.ambiguous_bases %>
+</p>
+
+<p>
+  <strong>Defined bases:</strong>
+  <%= @sequence.defined_bases %>
+</p>
+
+<p>
+  <strong>Seen:</strong>
+  <%= @sequence.seen %>
+</p>
+
+<%= link_to 'Edit', edit_sequence_path(@sequence) %> |
+<%= link_to 'Back', sequences_path %>
